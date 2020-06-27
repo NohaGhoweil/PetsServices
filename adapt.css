@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(4, 84, 87);
+}
+html{
+    width: 100%;
+}
+header{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    
+}
+header h1{
+    justify-content: start;
+font-size: 40px;
+font-family: 'Acme', sans-serif;
+color:rgb(4, 84, 87); ;
+padding-right: 350px;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+}
+.cover{
+    width: 100%;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;  
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+
+}
+#btn{
+    display: none;
+}
+.logo img{
+ 
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 45px;;
+
+
+}
+
+.menuContent{
+    background-color: rgb(169, 170, 170);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.menuContent a {
+    flex-direction: row;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 45px;
+    padding-top:10px;
+    transition: 0.6s ease;
+    
+}
+.menuContent a:hover {
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+}
+.menuContent .active a{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+    padding: 32px;
+    padding-top: 0px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+p.cr{
+    text-align: center;
+    align-content: center;
+    color: rgb(4, 84, 87);
+ }   
+ 
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i{
+    padding: 25px;
+    color: rgb(45, 109, 109);
+    font-size: 25px;
+
+}
+.footer a{
+    color: rgb(57, 58, 58);
+}
+a{
+    text-decoration: none;}
+.details{
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(16, 48, 48);
+    padding: 15px;
+}
+.details h6{
+    font-size: 20px;
+}
+
+.cover{
+    background-color: rgb(207, 204, 201);
+    background-position: center;
+}
+.cover img{
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+} 
+/* khody el media kolaha copy*/
+@media(max-width:800px){
+        .menuContent{
+            width: 804px;
+        }
+    
+    .menuContent a {
+        flex-direction: row;
+        font-size: 25px;
+        text-decoration: none;
+        color:rgb(4, 84, 87);
+        padding: 45px;
+        padding-top:10px;
+        transition: 0.6s ease;
+        
+    }
+    .menuContent a:hover {
+        background-color:rgb(4, 84, 87);
+        color:rgb(255, 255, 255);
+    }
+    .menuContent .active a{
+        background-color:rgb(4, 84, 87);
+        color:rgb(255, 255, 255);
+        padding: 32px;
+        padding-top: 0px;
+       text-align: center;
+    
+    }
+    ul{
+        display: none;
+    }
+    #btn{
+        display: block;
+        border:1px solid gray;
+        border-radius: 2px;
+        font-size: x-large;
+        padding: 8px;
+        margin: 29px;
+      }
+    .non-visible{
+        display: none;
+      }
+    .visible{
+        text-align: left;
+        background-color: #8e8d8d;
+        position: absolute;
+        top: 68px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        justify-content: space-around;
+        width: 731px;
+    
+      }
+      #links a {
+        WIDTH: 8%;
+        font-size: xx-large;
+    }
+    header h1{
+        margin: auto;
+        font-size: 21px;
+    }
+    body{
+        width: 300%;
+    }
+.details h3{
+    font-size: xx-large;
+}
+.details h6{
+    font-size: xx-large;
+}}
+
+
+
+
+

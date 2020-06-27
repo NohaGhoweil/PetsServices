@@ -1,0 +1,337 @@
+/*start css */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%px;
+    background-color: rgb(4, 84, 87);
+}
+/*start css to header gwa el (home, contact,...)*/
+header{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    
+}
+header h1{
+justify-content: start;
+font-size: 40px;
+font-family: 'Acme', sans-serif;
+color:rgb(4, 84, 87); ;
+padding-right: 350px;
+}
+/*it's class in header*/
+.main{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;  
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+
+}
+/*btn visible in media*/
+#btn{
+
+    display: none;
+  }
+  
+   @media(max-width:700px){
+    #btn{display: block;}
+  
+    .non-visible{
+      display: none;
+    }
+    .visible{
+        text-align: left;
+        background-color: #8e8d8d;
+        position: absolute;
+        top: 117px;
+        justify-content: space-between;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 763px;
+        padding: 19px;
+  
+    }
+    #links a {
+      WIDTH: 8%;
+      font-size: xx-large;
+  }
+    header{
+        width: 804px;
+    }
+  
+  }
+.logo img{
+ 
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 45px;;
+
+
+}
+@media(max-width:700px){
+    ul{
+        display: none;
+    }
+    #btn{
+        display: block;
+        border:1px solid white;
+        border-radius: 2px;
+        size: 3px;
+        margin: 25px;
+        height: 50px;
+        padding: 5px;
+    }
+}
+/*class in html2 fe clinc , buy ,..*/
+.menuContent{
+    background-color: rgb(169, 170, 170);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+@media(max-width:700px){
+    .menuContent{
+        width: 804px;
+    }
+}
+.menuContent a {
+    flex-direction: row;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 45px;
+    padding-top:10px;
+    transition: 0.6s ease;
+    
+}
+.menuContent a:hover {
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+}
+.menuContent .active a{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+    padding: 32px;
+    padding-top: 0px;
+   text-align: center;
+
+}
+@media(max-width:700px){
+    .h , .food ,.sup  ,.pets{
+        width: 800px;
+    }
+}
+/*css to welcome picture*/
+/*
+.h{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(animal1.jpg);
+    
+    
+    background-position: center;
+    background-color: rgb(207, 204, 201);
+
+}
+
+.h h1 a{
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    display:block;
+}*/
+/*css to food link*/
+.food{
+    background-color: rgb(207, 204, 201);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(BuyImg/fc.jpg);
+    background-position: center;
+}
+.food h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    display:block;
+}
+/*css to pets link*/
+.pets{
+    background-color: rgb(207, 204, 201);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(BuyImg/animal1.jpg);
+    background-position: center;
+}
+.pets h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    display:block;
+}
+/*css to supplies*/
+.sup{
+    background-color: rgb(207, 204, 201);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url(BuyImg/Pets.jpg);
+    background-position: center;
+}
+.sup h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    display:block;
+}
+/*blog it's class gwaha class content */
+.blog{ 
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    margin-left: 10px;
+  
+}
+
+.content{
+    width:100%;
+    display: flex;
+
+ 
+}
+@media(max-width:700px){
+    .content{
+    display: block;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    .blog{
+        padding-top: 0px;
+        margin: 90px;
+
+    }
+}
+
+.clear{
+    clear: both;
+}
+/*css to  class part */
+    .blog .part
+    {   justify-content: space-between;
+        width: 100%;
+        margin: 50px;
+    background:white;
+    
+    }
+
+@media(max-width:700px){
+    .part{
+        font-size: 40px;
+    }
+   
+}
+/*css to h in class part */
+    .blog .part h1{
+        text-align:center;
+        padding-right: 3px;
+         line-height: 1;
+        color: black;
+       font-size: 30px;
+    text-transform: uppercase;
+    }
+/*css to paragraph  */    
+.blog .part p{
+        text-align:center;
+       padding-right: 5px;
+        margin: 0px;
+        padding-top: 5px;
+        line-height: 1.5;
+        color: gray;
+       
+    }
+ /*css to image with width */   
+ img{
+        width: 100%;
+    
+        }
+/*css to paragraph in class part */
+.part p:hover{
+            background-color: rgb(207, 204, 201);
+            color: black;
+        }
+.part:hover{
+            background-color:rgb(207, 204, 201);
+            color: seashell;
+        }
+   /* class off da el line eli bktb fe (pets, food,sup)*/     
+     .off{
+          text-align: center;
+            color: rgb(36, 34, 34);
+            font-size: 70px;
+            padding-top: 100px;
+            border:1px solid rgb(207, 204, 201);
+            border-radius: 2px;
+            text-align: center;
+            background-color: rgb(207, 204, 201);
+            padding:1px;
+        }
+  @media(max-width:700px){
+      .off{
+          width: 800px;
+        
+      }
+  } 
+  /*css &media to footer*/     
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    @media(max-width:700px){
+        .footer{
+            width: 800px;
+        }
+        
+    }   
+    
+p.cr{
+    text-align: center;
+    align-content: center;
+    color: rgb(4, 84, 87);
+ }   
+ 
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i{
+    padding: 25px;
+    color: rgb(45, 109, 109);
+    font-size: 25px;
+
+}
+.footer a{
+    color: rgb(57, 58, 58);
+}
+a{
+    text-decoration: none;
+}

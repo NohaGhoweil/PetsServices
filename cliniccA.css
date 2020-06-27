@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(4, 84, 87);
+}
+header{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+   position: fixed; 
+   width: 100%;
+    
+}
+
+header h1{
+    justify-content: start;
+font-size: 40px;
+font-family: 'Acme', sans-serif;
+color:rgb(4, 84, 87); ;
+padding-right: 350px;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+nav{
+    display: block;
+}
+ul {
+    display: block;
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;  
+}
+
+ul li a{
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+
+}
+#btn{
+    display: none;
+}
+.logo img{
+ 
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 45px;;
+
+
+}
+
+
+.menuContent{
+    background-color: rgb(169, 170, 170);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+
+}
+.menuContent a {
+    flex-direction: row;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(4, 84, 87);
+    padding: 45px;
+    padding-top:10px;
+    transition: 0.6s ease;
+    
+}
+.menuContent a:hover {
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+}
+.active a{
+    background-color:rgb(4, 84, 87);
+    color:rgb(255, 255, 255);
+    padding: 32px;
+    padding-top: 0px;
+    font-size: xx-large;
+
+}
+.final{
+    height:90%;
+    padding-top: 8%;
+    background-color: rgb(228, 225, 225);
+}
+.final h1{
+ padding-right:25px;
+ padding-bottom:25px ;
+ padding-left:20px ;
+
+ font-size: 35px;
+}
+.final p{
+ padding-right:25px;
+ padding-bottom:15px ;
+ padding-left:20px ;
+ font-size: 20px;
+}
+
+.final img #d{
+ float: right;
+ 
+}
+.final i{
+color: turquoise;
+padding: 5px;
+}
+.alpha{
+ width: 50%;
+ height: 150%;
+ float: left;
+  }
+ 
+  .cities{
+      margin: 0px;
+      padding: 0px;
+
+}
+#Luxor{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ClinicImg/lu3.jpg);
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+}
+#Luxor h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 70px;
+    display:block;
+}
+#Aswan{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ClinicImg/aswan1.jpg);
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+
+    
+}
+#Aswan h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 70px;
+    display:block;
+}
+#Qena{
+    background-color: rgb(207, 204, 201);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(ClinicImg/qena2.jpg);
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+}
+#Qena h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 70px;
+    display:block;
+}
+#Sohag{
+    background-color: rgb(207, 204, 201);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ClinicImg/sohag2.jpg);
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+}
+#Sohag h1 a{
+    color:  white;
+    text-align: center;
+    padding: 100px;
+    font-size: 70px;
+    display:block;
+}
+#Aswan h1 a:hover, #Sohag h1 a:hover, #Qena h1 a:hover, #Luxor h1 a:hover{
+    color:rgb(182, 165, 165);
+} 
+.offers{
+    width: 100%;
+}
+.blog{ 
+    
+  
+    margin-left: 10px;
+  
+}
+.content{
+    width:100%;
+    display: flex;
+
+ 
+}
+.clear{
+    clear: both;
+}
+
+    .blog .part
+    {   justify-content: space-between;
+        width: 100%;
+        margin: 20px;
+    background:white;
+    
+    }
+   
+    .blog .part h1{
+        text-align:center;
+        padding-right: 3px;
+         line-height: 1;
+        color: black;
+    font-size: 23px;
+    padding: 2px;
+    }
+    .blog .part p{
+        text-align:center;
+     margin: 0px;
+        padding-top: 2px;
+        line-height: 1.5;
+        color: rgb(77, 74, 74);
+        padding: 0px;
+       
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        }
+        .part p:hover{
+            background-color: rgb(207, 204, 201);
+            color: black;
+        }
+        .part:hover{
+            background-color:rgb(207, 204, 201);
+            color: seashell;
+        }
+        
+        .off{
+            text-align: center;
+            color: rgb(36, 34, 34);
+            font-size: 70px;
+            padding-top: 100px;
+            border:1px solid rgb(207, 204, 201);
+            border-radius: 2px;
+            text-align: center;
+            background-color: rgb(207, 204, 201);
+            padding:1px;
+        }
+#d img{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(c24.jpg);
+background-position: center;
+background-size: cover;
+
+}
+#d p{
+    padding: 200px;
+}
+
+ /****java script section****/
+ .guideline h1{
+     padding: 15px;
+     color: rgb(4, 84, 87);
+     padding-left: 1200px;
+ }
+ .guideline{
+    margin: 0;
+    background-color: azure;
+    width: 100%;
+    border-radius: 5px;
+ }
+ .details{
+     background-color: white;
+ }
+ .details ul {
+     margin: 0;
+  
+    font-size: 25px;
+    list-style: circle;
+    color: aliceblue;
+    width: 100%;
+    background-color: rgb(68, 68, 68)
+}
+ .details li {
+    margin: 20px;
+    display: block;
+    list-style-type: circle;
+    padding-left: 780px;
+    padding-right: 0px;
+
+   
+  }
+  
+  .show-details {
+    align-items: center;
+    background-color: rgb(31, 94, 102);
+    border: 1px solid rgb(82, 81, 88);
+    border-radius: 3px;
+    color: rgb(243, 243, 245);
+    display: flex;
+    height: 2em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 1100px;
+  }
+  
+  .show-details img {
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+  }
+  
+  .hidden {
+    display: none;
+    margin: 20px;
+    color: aliceblue;
+    background-color: black;
+  }
+  /********ending java script section***************/
+
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+p.cr{
+    text-align: center;
+    align-content: center;
+    color: rgb(4, 84, 87);
+ }   
+ 
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons i{
+    padding: 25px;
+    color: rgb(45, 109, 109);
+    font-size: 25px;
+
+}
+.footer a{
+    color: rgb(57, 58, 58);
+}
+a{
+    text-decoration: none;}
+   
+    @media(max-width:800px){
+        ul{
+            display: none;
+        }
+       
+        .details ul{
+            font-size: 35px;
+            display: block;
+        }
+      
+        
+       body{
+         display: block;
+            width:1100px;
+         margin: 0%;
+        }
+      html{
+          width: 1100px;
+      }
+        #btn{
+            display: block;
+            border:1px solid gray;
+            border-radius: 2px;
+            font-size: x-large;
+            padding: 25px;
+            margin: 10px
+          }
+        .non-visible{
+          display: none;
+        }
+        .visible{
+          text-align: left;
+          background-color: #8e8d8d;
+          position: absolute;
+          top: 68px;
+          left: 0px;
+          right: 0px;
+          display: flex;
+          flex-direction: row;
+          padding: 40px;
+          justify-content: space-around;
+       
+      
+        }
+        #links a {
+          WIDTH: 8%;
+          font-size: xx-large;
+      }
+      .content{
+          margin: auto;
+          flex-direction: column;
+          width: 70%;
+      }
+      .blog .part p{
+          font-size: xx-large;
+      }
+      .blog .part h1{
+          font-size: xx-large;
+      }
+      .guideline h1{
+          font-size: 45px;
+          padding-left:913px;
+              }
+      .show-details{
+          font-size: 45px;
+          padding-left: 740px;
+      }
+      .off{
+          font-size: 100px;
+      }
+      
+
+#Aswan h1 a{
+    font-size: 80px;
+}
+.html2{
+    width: 1100px;
+}
+    }
